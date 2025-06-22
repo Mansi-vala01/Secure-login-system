@@ -85,34 +85,26 @@ project/
 5. **Open your browser at:**
    http://127.0.0.1:5000
 
-⚠️ Known Issues / Improvements
-Reset password not implemented
+## ⚠️ Known Issues / Improvements
+- Reset password not implemented
+- CAPTCHA can be bypassed (for now)
+- No email verification
 
-CAPTCHA can be bypassed (for now)
+## 🙋‍♂️ Challenges Faced
+- CAPTCHA integration and validation
+- Securing user sessions correctly
+- Showing flash messages consistently across all templates
+- Proper routing for role-based dashboards
 
-No email verification
+## 💡 Future Enhancements
+- Implement password reset
+- Add email verification during registration
+- Enable 2FA for Admins
+- Store logs for failed login attempts
+   
+## 📧 Contact
+- If you have questions or feedback, feel free to reach out!
 
-🙋‍♂️ Challenges Faced
-CAPTCHA integration and validation
-
-Securing user sessions correctly
-
-Showing flash messages consistently across all templates
-
-Proper routing for role-based dashboards
-
-💡 Future Enhancements
-Implement password reset
-
-Add email verification during registration
-
-Enable 2FA for Admins
-
-Store logs for failed login attempts
-
-📧 Contact
-If you have questions or feedback, feel free to reach out!
-
-⭐ If you found this useful, consider giving it a star on GitHub!
+## ⭐ If you found this useful, consider giving it a star on GitHub!
 
 
