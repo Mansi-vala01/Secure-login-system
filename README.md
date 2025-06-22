@@ -39,10 +39,10 @@ A secure web-based login and registration system built using **Flask**, **SQLite
 
 | Feature | Screenshot |
 |--------|------------|
-| Registration Page | ![Register](screenshots/register.png) |
-| Login Page | ![Login](screenshots/login.png) |
-| Admin Dashboard | ![Admin](screenshots/admin_dashboard.png) |
-| User Dashboard | ![User](screenshots/user_dashboard.png) |
+| Registration Page | ![Register](screenshot/register.png) |
+| Login Page | ![Login](screenshot/login.png) |
+| Admin Dashboard | ![Admin](screenshot/admin_dashboard.png) |
+| User Dashboard | ![User](screenshot/user_dashboard.png) |
 
 ---
 
