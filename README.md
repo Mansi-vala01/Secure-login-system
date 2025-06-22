@@ -61,5 +61,4 @@ project/
 ├── static/
 │ └── styles.css
 ├── database.db
-├── requirements.txt
-└── README.md
+
