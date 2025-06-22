@@ -62,3 +62,57 @@ project/
 │ └── styles.css
 ├── database.db
 
+
+---
+
+## 🧑‍💻 Local Setup Instructions
+
+1. **Clone the repo:**
+   ```bash
+   git clone https://github.com/yourusername/secure-login-system.git
+   cd secure-login-system
+   
+2. **Create a virtual environment and activate it:**
+   python -m venv venv
+   venv\Scripts\activate  # on Windows
+   
+3. **Install dependencies:**
+   pip install -r requirements.txt
+   
+4. **Run the application:**
+   flask run
+   
+5. **Open your browser at:**
+   http://127.0.0.1:5000
+
+⚠️ Known Issues / Improvements
+Reset password not implemented
+
+CAPTCHA can be bypassed (for now)
+
+No email verification
+
+🙋‍♂️ Challenges Faced
+CAPTCHA integration and validation
+
+Securing user sessions correctly
+
+Showing flash messages consistently across all templates
+
+Proper routing for role-based dashboards
+
+💡 Future Enhancements
+Implement password reset
+
+Add email verification during registration
+
+Enable 2FA for Admins
+
+Store logs for failed login attempts
+
+📧 Contact
+If you have questions or feedback, feel free to reach out!
+
+⭐ If you found this useful, consider giving it a star on GitHub!
+
+
