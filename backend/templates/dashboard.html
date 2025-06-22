@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+  <div class="form-container">
+    <h2>Welcome, {{ session.get('username') }}!</h2>
+    {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+      <div class="flash-messages">
+        {% for category, message in messages %}
+          <p class="flash {{ category }}">{{ message }}</p>
+        {% endfor %}
+      </div>
+    {% endif %}
+  {% endwith %}
+    <p>You are logged in as: <strong>{{ session.get('role') }}</strong></p>
+
+    {% if session.get('role') == 'admin' %}
+      <p><a href="#">🛠 Admin: Manage Users</a></p>
+    {% else %}
+      <p><a href="#">🔒 User: View Profile</a></p>
+    {% endif %}
+
+    <br />
+    <a href="{{ url_for('logout') }}">Logout</a>
+  </div>
+</body>
+</html>
