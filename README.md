@@ -48,10 +48,11 @@ A secure web-based login and registration system built using **Flask**, **SQLite
 
 ## 📂 Project Structure
 
-project/
+backend/
 ├── app.py
 ├── models.py
 ├── config.py
+├── database.db
 ├── templates/
 │ ├── login.html
 │ ├── register.html
@@ -60,7 +61,7 @@ project/
 │ └── admin_users.html
 ├── static/
 │ └── styles.css
-├── database.db
+
 
 
 ---
